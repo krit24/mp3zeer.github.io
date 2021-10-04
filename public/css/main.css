@@ -1,0 +1,244 @@
+/* CSS crunched with Crunch - http://crunchapp.net/ */
+body {
+  background-color: #e8f1ec;
+  margin: 0;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  color: #333;
+  text-align: left;
+  font-size: 12px;
+}
+.clear {
+  clear: both;
+}
+.pull-left {
+  float: left;
+}
+.pull-right {
+  float: right;
+}
+a {
+  text-decoration: none;
+}
+form .line {
+  margin-top: 10px;
+  clear: both;
+}
+form .line label {
+  width: 140px;
+  display: block;
+  float: left;
+  padding: 6px;
+}
+form .line input[type="text"],
+form .line input[type="password"]{
+  padding: 5px;
+  min-width: 250px;
+  float: left;
+}
+form .line select {
+  padding: 5px;
+  min-width: 264px;
+  float: left;
+}
+form .line textarea {
+  min-height: 100px;
+  padding: 10px;
+  resize: none;
+  width: 240px;
+}
+form .buttons {
+  border-top: 1px dotted #ccc;
+  margin-top: 20px;
+  padding-top: 10px;
+}
+button {
+  border: 1px solid #ccc;
+  padding: 5px;
+  cursor: pointer;
+}
+.mright-1 {
+  margin-right: 5px;
+}
+.mleft-1 {
+  margin-left: 5px;
+}
+.fld-error {
+  border: 1px solid #fa7353;
+}
+.hide {
+  display: none !important;
+}
+.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-dialog-buttons.ui-draggable {
+  font-size: 12px !important;
+}
+#lesson_code {
+  padding: 4px !important;
+  margin-right: 5px;
+}
+#school_name {
+  padding: 6px !important;
+  margin-right: 5px;
+}
+fieldset {
+  border: 1px dotted #ccc;
+}
+#header {
+  min-height: 85px;
+  background-color: #a3d29c;
+  border-bottom: 30px solid #1f2d36;
+  position: relative;
+}
+#header .logo {
+  left: 30px;
+  position: absolute;
+  top: -4px;
+}
+#header .tagline {
+  position: absolute;
+  right: 100px;
+  top: 25px;
+}
+#header .logout {
+  position: absolute;
+  right: 100px;
+  top: 89px;
+  background-image: url('../images/icons/logout.png');
+  display: block;
+  padding-left: 25px;
+  background-repeat: no-repeat;
+  height: 22px;
+  padding-top: 2px;
+}
+#header .logout a {
+  color: #a3d29c;
+  text-decoration: none;
+}
+#wrapper #sidebar {
+  float: left;
+  width: 15%;
+  padding: 30px 0 0;
+}
+#wrapper #sidebar ul {
+  padding: 0;
+  display: block;
+}
+#wrapper #sidebar ul li {
+  position: relative;
+  display: block;
+  padding: 5px 5px 5px 15px;
+}
+#wrapper #sidebar ul li a {
+  color: #333;
+  text-decoration: underline;
+}
+#wrapper #sidebar ul li a:hover {
+  text-decoration: none;
+}
+#wrapper #sidebar ul li ul {
+  background: none repeat scroll 0 0 #e8f1ec;
+  border: 1px solid #ccc;
+  left: 200px;
+  padding: 5px 5px 5px 5px;
+  position: absolute;
+  top: -10px;
+  width: 220px;
+  z-index: 10000;
+}
+#wrapper #sidebar ul li ul img {
+  left: -30px;
+  position: absolute;
+  top: 10px;
+}
+#wrapper #sidebar ul li ul li {
+  position: relative;
+}
+#wrapper #main-content {
+  float: right;
+  width: 82%;
+  padding: 40px 0px 10px 25px;
+  min-height: 500px;
+  background: #edf4f0;
+}
+#wrapper #main-content h3 {
+  border-bottom: 1px dotted #ccc;
+  padding-bottom: 10px;
+  margin-top: 0;
+}
+#wrapper #main-content .lists {
+  width: 90%;
+}
+#footer {
+  background-color: #252525;
+  padding: 20px;
+  color: #fff;
+  font-size: 13px;
+}
+#footer .sitename {
+  margin-right: 80px;
+}
+#login {
+  background: url("../images/login.png") no-repeat scroll 20px 20px #ffffff;
+  border: 2px solid #a3d29c;
+  margin: 15% auto auto;
+  height: auto;
+  padding: 10px;
+  position: relative;
+  top: 20%;
+  width: 410px;
+}
+#login form {
+  margin-top: 5px;
+}
+.success {
+  padding: 10px 10px 10px 35px;
+  background: url("../images/icons/001_06.png") no-repeat scroll 10px center #cbf869;
+}
+.error-msg {
+  padding: 10px 10px 10px 35px;
+  background: url("../images/icons/001_05.png") no-repeat scroll 10px center #ef6a6a;
+}
+.error {
+  color: red;
+  padding: 10px;
+  position: relative;
+  top: 8px;
+}
+.disapproved_message {
+  width: 85%;
+  margin: auto;
+  resize: none;
+  height: 180px;
+  margin-top: 30px;
+  padding: 10px;
+}
+.blockUI.blockMsg.blockPage {
+  background: none repeat scroll 0 0 #fff !important;
+  border: 1px solid #eee !important;
+  padding: 10px !important;
+}
+#details table td {
+  border: 1px solid;
+  padding: 10px;
+}
+.curriculum-map-content {
+  border: 1px solid #000;
+  padding: 10px;
+}
+
+li.song-item.ui-sortable-handle {
+    display: block;
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin: 10px;
+    background: url("../images/music-icon.png") no-repeat scroll 10px center #fff;
+    position: relative;
+}
+
+span.duration {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}

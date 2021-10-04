@@ -1,0 +1,58 @@
+.icon {
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	margin: 2px;
+	vertical-align: middle;
+}
+.icon-add {
+	background: url(../images/icons/001_01.png) no-repeat;
+}
+.icon-delete {
+	background: url(../images/icons/001_05.png) no-repeat;
+}
+.icon-deleteb {
+	background: url(../images/icons/001_05b.png) no-repeat;
+}
+.icon-error {
+	background: url(../images/icons/001_30.png) no-repeat;
+}
+.icon-folder {
+	background: url(../images/icons/001_43.png) no-repeat;
+}
+.icon-info {
+	background: url(../images/icons/001_11.png) no-repeat;
+}
+.icon-password {
+	background: url(../images/icons/001_41.png) no-repeat;
+}
+.icon-success {
+	background: url(../images/icons/001_06.png) no-repeat;
+}
+.icon-update {
+	background: url(../images/icons/001_45.png) no-repeat;
+}
+.icon-view {
+	background: url(../images/icons/001_38.png) no-repeat;
+}
+.icon-add-image,.icon-add-video {
+	background: url(../images/icons/001_62.png) no-repeat;
+}
+.icon-edit-image,.icon-edit-video{
+	background: url(../images/icons/001_61.png) no-repeat;
+}
+.icon-person {
+	background: url(../images/icons/001_54.png) no-repeat;
+}
+.icon-download{
+	background: url(../images/icons/001_52.png) no-repeat;
+}
+.icon-approved{
+	background: url(../images/icons/001_18.png) no-repeat;
+}
+.icon-disapproved{
+	background: url(../images/icons/001_19.png) no-repeat;
+}
+.icon-users{
+	background: url(../images/icons/001_57.png) no-repeat;
+}
